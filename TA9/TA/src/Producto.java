@@ -11,6 +11,9 @@ public class Producto implements IProducto {
         this.stock = 0;
         this.precio = 0;
     }
+    public Producto(){
+        
+    }
 
     @Override
     public String getNombre() {

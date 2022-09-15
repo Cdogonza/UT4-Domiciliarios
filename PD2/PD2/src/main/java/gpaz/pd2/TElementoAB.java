@@ -126,7 +126,7 @@ class TElementoAB<T> implements IElementoAB<T> {
 
     @Override
     public T getDatos() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return this.datos;
     }
 
     @Override
